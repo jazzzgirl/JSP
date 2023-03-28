@@ -15,9 +15,8 @@ import javax.sql.DataSource;
 public class MemberDAO {
 	private Connection con;
 	private PreparedStatement pstmt; 
-	private DataSource dataFactory; 	// 추가
+	private DataSource dataFactory; 
 	
-	// 추가
 	public MemberDAO() {
 		try {
 			Context ctx = new InitialContext();
@@ -31,13 +30,12 @@ public class MemberDAO {
 	public List<MemberVO> listMembers() {
 		List<MemberVO> list = new ArrayList<MemberVO>();
 		try {
-			// connDB();
-			con=dataFactory.getConnection();		// 추가	
+			con=dataFactory.getConnection();		
 			
 			String query = "select * from t_member ";
 			System.out.println(query);
 			
-			pstmt = con.prepareStatement(query);		// 추가	
+			pstmt = con.prepareStatement(query);		
 			ResultSet rs = pstmt.executeQuery(query);
 			
 			while (rs.next()) {
@@ -63,4 +61,29 @@ public class MemberDAO {
 		return list;
 	}
 
+	// 추가
+	public void addMember(MemberVO memberVO) {
+		try {
+			con = dataFactory.getConnection();
+			String id = memberVO.getId();
+			String pwd = memberVO.getPwd();
+			String name = memberVO.getName();
+			String email = memberVO.getEmail();
+			
+			String query = "insert into t_member";
+			query += " (id,pwd,name,email)";
+			query += " values(?,?,?,?)";			
+			System.out.println("prepareStatememt: " + query);
+			
+			pstmt = con.prepareStatement(query);
+			pstmt.setString(1, id);
+			pstmt.setString(2, pwd);
+			pstmt.setString(3, name);
+			pstmt.setString(4, email);
+			pstmt.executeUpdate();
+			pstmt.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 }
