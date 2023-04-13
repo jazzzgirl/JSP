@@ -18,7 +18,7 @@
 박미르 : https://github.com/NIGHTPURI<br>
 박성재 : https://github.com/ParkSJ517<br>
 박정수 : <br>
-박현빈 : https://github.com/pparue<br>
+박현빈 : https://github.com/ppareu<br>
 엄민서 : https://github.com/LatteMacchiato1223<br>
 오화실 : https://github.com/Hwasil/JSP.git<br>
 이도경 : https://github.com/LeeDG3891<br>
