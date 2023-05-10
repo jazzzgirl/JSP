@@ -16,14 +16,14 @@
 	<body>
 	   <h1>로그인 결과 출력</h1>	
 		<%	
-			if(user_id==null || user_id.length()==0){ 
+			if(user_id == null || user_id.length() == 0){ 
 		%>
-		아이디를 입력하세요.<br>
-		<a href="/Chapter12/login.html">로그인하기</a>
+				아이디를 입력하세요.<br>
+				<a href="/Chapter12/login.html">로그인하기</a>
 		<% 	
 			}else{ 
 		%>
-		<h1> 환영합니다. <%= user_id %> 님!!!</h1>
+				<h1> 환영합니다. <%= user_id %> 님!!!</h1>
 		<%	
 			} 
 		%>
