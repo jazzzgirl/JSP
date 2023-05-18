@@ -29,10 +29,7 @@
 		      <td><%=email %> </td>
 		   </tr>   
 		   <tr align=center>
-		      <td>${param.id} </td>
-		      <td>${param.pwd} </td>
-		      <td>${param.name} </td>
-		      <td>${param.email}</td>
+		      
 		   </tr>
 		</table>
 	</body>
