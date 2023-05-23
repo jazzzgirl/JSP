@@ -2,7 +2,7 @@
 <a href="http://tomcat.apache.org/download-taglibs.cgi">http://tomcat.apache.org/download-taglibs.cgi</a>
 <h2>접속해서 네 개의 jar파일을 다운로드합니다!</h2>
 <br>
-<h2>500 error 발생 시 - 라이브러리 추가</h2>
+<h2>500 error 발생 시 - 아래 주소 접속하여 jar 라이브러리 추가 (2개)</h2>
 <a href="https://stackoverflow.com/questions/8021370/java-lang-noclassdeffounderror-javax-servlet-jsp-tagext-taglibraryvalidator">https://stackoverflow.com/questions/8021370/java-lang-noclassdeffounderror-javax-servlet-jsp-tagext-taglibraryvalidator</a>
 
 <br>
