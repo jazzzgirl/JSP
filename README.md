@@ -10,14 +10,14 @@
 김민오 : https://github.com/screwb4rs<br>
 김성진 : https://github.com/XeongZin<br>
 김승준 : https://github.com/ksj12341<br>
-김영현 : <br>
+김영현 : https://github.com/gongjungjebiyudanja<br>
 김지선 : https://github.com/jiseonO-O<br>
 김지현 : https://github.com/KimJRan<br>
 김현우 : https://github.com/Hyunu00<br>
 남태양 : https://github.com/SouthSun425<br>
 박미르 : https://github.com/NIGHTPURI<br>
 박성재 : https://github.com/ParkSJ517<br>
-박정수 : <br>
+박정수 : https://github.com/rapier456<br>
 박현빈 : https://github.com/ppareu<br>
 엄민서 : https://github.com/LatteMacchiato1223<br>
 오화실 : https://github.com/Hwasil/JSP.git<br>
