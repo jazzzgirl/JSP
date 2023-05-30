@@ -10,7 +10,7 @@
 김민오 : https://github.com/screwb4rs<br>
 김성진 : https://github.com/XeongZin<br>
 김승준 : https://github.com/ksj12341<br>
-김영현 : https://github.com/gongjungjebiyudanja<br>
+김영현 : https://github.com/YoungHyeon1<br>
 김지선 : https://github.com/jiseonO-O<br>
 김지현 : https://github.com/KimJRan<br>
 김현우 : https://github.com/Hyunu00<br>
