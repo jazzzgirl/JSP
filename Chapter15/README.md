@@ -5,4 +5,9 @@
 <br><br>
 
 
+<h2>자카르타 문제 해결</h2>
+https://github.com/YoungHyeon1/jsp/blob/main/jsp2/Chapter15/src/sec01/ex01/FileUpload.java
 
+<br><br>
+
+또는 톰캣 9버전으로 설치
